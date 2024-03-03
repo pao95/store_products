@@ -2,7 +2,7 @@
   "products": [
     {
       "id": "1",
-      "name": "Treadmill Pro-11",
+      "name": "Treadmill Pro-112",
       "imageUrl": "https://example.com/treadmill.jpg",
       "stock": 10,
       "price": 799.99,
@@ -12,14 +12,213 @@
       "descriptionShort": "Professional treadmill with 2.5 HP motor and spacious surface."
     },
     {
-      "id": "8025",
-      "isOficial": false,
-      "name": "3333333333",
-      "descriptionShort": "",
-      "price": 0,
-      "stock": 0,
-      "available": false,
-      "descriptionLarge": ""
+      "id": "2",
+      "name": "Elliptical Trainer X9",
+      "imageUrl": "https://example.com/elliptical.jpg",
+      "stock": 15,
+      "price": 1199.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "The Elliptical Trainer X9 offers a low-impact, full-body workout with smooth, natural motion. Its adjustable stride length and ergonomic design make it perfect for users of all fitness levels.",
+      "descriptionShort": "Premium elliptical trainer with adjustable stride length."
+    },
+    {
+      "id": "3",
+      "name": "Indoor Cycle Pro-200",
+      "imageUrl": "https://example.com/indoor_cycle.jpg",
+      "stock": 8,
+      "price": 899.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Experience the thrill of indoor cycling with the Indoor Cycle Pro-200. Featuring a heavy-duty flywheel, adjustable resistance, and ergonomic design, it provides a challenging workout for cyclists of all levels.",
+      "descriptionShort": "Pro-level indoor cycling bike with heavy-duty flywheel."
+    },
+    {
+      "id": "4",
+      "name": "Adjustable Dumbbell Set",
+      "imageUrl": "https://example.com/dumbbells.jpg",
+      "stock": 20,
+      "price": 249.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "The Adjustable Dumbbell Set offers a versatile and convenient way to strength train at home. With adjustable weight increments and a durable construction, it's perfect for beginners and experienced lifters alike.",
+      "descriptionShort": "Set of adjustable dumbbells for versatile strength training."
+    },
+    {
+      "id": "5",
+      "name": "Yoga Mat - Eco-Friendly",
+      "imageUrl": "https://example.com/yoga_mat.jpg",
+      "stock": 25,
+      "price": 39.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Practice yoga in comfort and style with our Eco-Friendly Yoga Mat. Made from high-quality, non-toxic materials, it provides excellent grip and cushioning for your yoga sessions.",
+      "descriptionShort": "Eco-friendly yoga mat with excellent grip and cushioning."
+    },
+    {
+      "id": "6",
+      "name": "Resistance Bands Set",
+      "imageUrl": "https://example.com/resistance_bands.jpg",
+      "stock": 30,
+      "price": 49.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Our Resistance Bands Set offers a versatile and effective way to strengthen and tone your muscles. With multiple resistance levels and a compact design, it's perfect for home workouts or on-the-go training.",
+      "descriptionShort": "Set of resistance bands for versatile muscle training."
+    },
+    {
+      "id": "7",
+      "name": "Foam Roller - Deep Tissue Massage",
+      "imageUrl": "https://example.com/foam_roller.jpg",
+      "stock": 12,
+      "price": 29.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Relieve muscle tension and improve flexibility with our Foam Roller. Its textured surface provides a deep tissue massage, helping to alleviate soreness and improve recovery after workouts.",
+      "descriptionShort": "Foam roller for deep tissue massage and muscle recovery."
+    },
+    {
+      "id": "8",
+      "name": "Pilates Ring - Dual Grip",
+      "imageUrl": "https://example.com/pilates_ring.jpg",
+      "stock": 18,
+      "price": 19.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Enhance your Pilates workouts with our Dual Grip Pilates Ring. Its soft, comfortable handles and durable construction make it ideal for toning and strengthening your entire body.",
+      "descriptionShort": "Dual grip Pilates ring for toning and strengthening."
+    },
+    {
+      "id": "9",
+      "name": "Jump Rope - Speed Training",
+      "imageUrl": "https://example.com/jump_rope.jpg",
+      "stock": 22,
+      "price": 14.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Boost your cardio fitness and agility with our Speed Training Jump Rope. Its lightweight design and adjustable length make it perfect for athletes of all levels.",
+      "descriptionShort": "Jump rope for speed training and cardio workouts."
+    },
+    {
+      "id": "10",
+      "name": "Adjustable Weight Bench",
+      "imageUrl": "https://example.com/weight_bench.jpg",
+      "stock": 10,
+      "price": 179.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "The Adjustable Weight Bench offers multiple incline and decline positions, allowing you to perform a variety of exercises with proper form and stability. Its sturdy construction and comfortable padding make it perfect for home gyms.",
+      "descriptionShort": "Weight bench with adjustable incline and decline positions."
+    },
+    {
+      "id": "11",
+      "name": "Medicine Ball - Textured Grip",
+      "imageUrl": "https://example.com/medicine_ball.jpg",
+      "stock": 15,
+      "price": 34.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Our Textured Grip Medicine Ball is designed for strength training, balance, and coordination exercises. Its textured surface provides a secure grip, making it ideal for a wide range of workouts.",
+      "descriptionShort": "Medicine ball with textured grip for strength training."
+    },
+    {
+      "id": "12",
+      "name": "Kettlebell Set - Cast Iron",
+      "imageUrl": "https://example.com/kettlebell_set.jpg",
+      "stock": 10,
+      "price": 129.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "The Cast Iron Kettlebell Set offers a versatile and effective way to build strength, endurance, and power. Its durable construction and ergonomic design make it suitable for both beginner and advanced kettlebell enthusiasts.",
+      "descriptionShort": "Set of cast iron kettlebells for strength and endurance."
+    },
+    {
+      "id": "13",
+      "name": "Boxing Gloves - Premium Leather",
+      "imageUrl": "https://example.com/boxing_gloves.jpg",
+      "stock": 20,
+      "price": 79.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Train like a pro with our Premium Leather Boxing Gloves. Made from high-quality materials, they offer superior protection, comfort, and durability, making them perfect for boxing workouts and sparring sessions.",
+      "descriptionShort": "Premium leather boxing gloves for superior protection."
+    },
+    {
+      "id": "14",
+      "name": "Yoga Block - High Density Foam",
+      "imageUrl": "https://example.com/yoga_block.jpg",
+      "stock": 25,
+      "price": 9.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Our High Density Foam Yoga Block provides the support and stability you need to deepen your yoga poses and improve flexibility. Its lightweight and durable design make it perfect for yogis of all levels.",
+      "descriptionShort": "Yoga block for support and stability in yoga poses."
+    },
+    {
+      "id": "15",
+      "name": "Pull-Up Bar - Wall Mounted",
+      "imageUrl": "https://example.com/pullup_bar.jpg",
+      "stock": 15,
+      "price": 49.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Build upper body strength and muscle definition with our Wall Mounted Pull-Up Bar. Its sturdy construction and ergonomic design make it suitable for a variety of pull-up variations and exercises.",
+      "descriptionShort": "Wall mounted pull-up bar for upper body strength."
+    },
+    {
+      "id": "16",
+      "name": "Weighted Vest - Adjustable",
+      "imageUrl": "https://example.com/weighted_vest.jpg",
+      "stock": 10,
+      "price": 69.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Enhance your workouts with our Adjustable Weighted Vest. With adjustable weight increments and a comfortable, snug fit, it's perfect for adding resistance to bodyweight exercises and cardio workouts.",
+      "descriptionShort": "Adjustable weighted vest for enhanced workouts."
+    },
+    {
+      "id": "17",
+      "name": "Skipping Rope - Speed Cable",
+      "imageUrl": "https://example.com/skipping_rope.jpg",
+      "stock": 20,
+      "price": 19.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Our Speed Cable Skipping Rope is designed for maximum speed, agility, and durability. Its lightweight design and smooth rotation make it ideal for double unders and intense cardio workouts.",
+      "descriptionShort": "Skipping rope with speed cable for intense workouts."
+    },
+    {
+      "id": "18",
+      "name": "Balance Ball Chair - Ergonomic",
+      "imageUrl": "https://example.com/balance_ball_chair.jpg",
+      "stock": 12,
+      "price": 89.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Improve posture and core strength with our Ergonomic Balance Ball Chair. Its stable base and comfortable design make it perfect for use at home or in the office, promoting active sitting and better spinal alignment.",
+      "descriptionShort": "Balance ball chair for improved posture and core strength."
+    },
+    {
+      "id": "19",
+      "name": "Adjustable Ankle Weights",
+      "imageUrl": "https://example.com/ankle_weights.jpg",
+      "stock": 18,
+      "price": 29.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Our Adjustable Ankle Weights are perfect for adding resistance to leg exercises and cardio workouts. With adjustable weight increments and a comfortable fit, they're ideal for users of all fitness levels.",
+      "descriptionShort": "Adjustable ankle weights for resistance training."
+    },
+    {
+      "id": "20",
+      "name": "Exercise Ball - Anti-Burst",
+      "imageUrl": "https://example.com/exercise_ball.jpg",
+      "stock": 20,
+      "price": 24.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "Our Anti-Burst Exercise Ball is made from high-quality, anti-burst PVC material, ensuring safe and durable performance. Perfect for core strengthening, flexibility exercises, and balance training.",
+      "descriptionShort": "Exercise ball made from anti-burst PVC material."
     }
   ]
 }
