@@ -3,7 +3,6 @@ export const fetchApi = async (
   method: string,
   body: any = null
 ): Promise<any> => {
-  console.log(url);
   try {
     const response = await fetch(`${url}`, {
       method: method,

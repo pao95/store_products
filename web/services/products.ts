@@ -1,9 +1,10 @@
 import { IProduct, IProductNew } from "@/interfaces/product";
 import { fetchApi } from "../utils/fetchApi";
 
+/*TODO: parametrizar urls de api */
 export const getProducts = async (): Promise<IProduct[]> => {
   try {
-    const response = await fetch("http://localhost:3001/products");
+    const response = await fetch("http://api:3001/products");
     if (!response.ok) {
       throw new Error("Failed to fetch products");
     }
@@ -17,7 +18,7 @@ export const getProducts = async (): Promise<IProduct[]> => {
 
 export const getProduct = async (id: string): Promise<IProduct | null> => {
   try {
-    const response = await fetch(`http://localhost:3001/products/${id}`);
+    const response = await fetch(`http://api:3001/products/${id}`);
     if (!response.ok) {
       throw new Error("Failed to fetch product");
     }
@@ -31,7 +32,7 @@ export const getProduct = async (id: string): Promise<IProduct | null> => {
 
 export const updateProduct = async (product: IProduct): Promise<IProduct> => {
   return fetchApi(
-    `http://localhost:3001/products/${product.id}`,
+    `http://127.0.0.1:3001/products/${product.id}`,
     "PUT",
     product
   )
@@ -46,7 +47,7 @@ export const updateProduct = async (product: IProduct): Promise<IProduct> => {
 export const createProduct = async (
   product: IProductNew
 ): Promise<IProduct> => {
-  return fetchApi("http://localhost:3001/products", "POST", product)
+  return fetchApi("http://127.0.0.1:3001/products", "POST", product)
     .then((data: any) => {
       return data;
     })
@@ -56,7 +57,7 @@ export const createProduct = async (
 };
 
 export const deleteProduct = async (id: number): Promise<IProduct> => {
-  return fetchApi(`http://localhost:3001/products/${id}`, "DELETE")
+  return fetchApi(`http://127.0.0.1:3001/products/${id}`, "DELETE")
     .then((data: any) => {
       return data;
     })

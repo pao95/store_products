@@ -53,10 +53,8 @@ export const ProductForm = ({
       });
     }
   };
-  console.log(values);
 
   const handleConfirmCreate = (event: React.FormEvent) => {
-    console.log(values);
     event.preventDefault();
     if (handleCreate) {
       handleCreate({

@@ -105,7 +105,6 @@ export const AbmProductProvider = ({
    * @param product The product to be created.
    */
   const handleConfirmCreate = async (product: IProductNew) => {
-    console.log(product);
     const data = await createProduct(product);
     actionSuccessCreate && actionSuccessCreate(data.id.toString());
   };

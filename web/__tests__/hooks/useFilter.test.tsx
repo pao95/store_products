@@ -4,6 +4,7 @@ import { renderHook } from "@testing-library/react";
 import { act } from "react-dom/test-utils";
 
 const mockProducts: IProduct[] = [
+  //**TODO: Este array esta repetido en otro archivo, dejarlo en un solo lugar */
   {
     id: 1,
     name: "Product A",

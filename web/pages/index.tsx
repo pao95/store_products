@@ -1,6 +1,6 @@
 import { LayoutPages } from "@/components/layout/LayoutPages";
 import { ProductsList } from "@/components/containers/productsList/ProductsList";
-import { GetStaticPaths, GetStaticProps } from "next";
+import { GetStaticProps } from "next";
 import { getProducts } from "@/services/products";
 import { IProduct } from "@/interfaces/product";
 
@@ -16,7 +16,7 @@ export default function ListProductsPage({
   products = [],
 }: ListProductsPageProps) {
   return (
-    <LayoutPages description="TODO: definir descripcion" title="List products">
+    <LayoutPages description="TODO: definir descripcion" title="Products list">
       <ProductsList products={products} />
     </LayoutPages>
   );
