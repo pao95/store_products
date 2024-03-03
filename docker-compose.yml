@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    command: npx json-server --watch db.json --port 3001
+    ports:
+      - 3001:3001 # Puerto para la API
+    volumes:
+      - ./api:/app # Monta el directorio local 'api' dentro del contenedor en '/app'
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000 # Puerto para la aplicación web
+    volumes:
+      - ./web:/app # Monta el directorio local 'web' dentro del contenedor en '/app'

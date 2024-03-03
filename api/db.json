@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Treadmill Pro-11",
+      "imageUrl": "https://example.com/treadmill.jpg",
+      "stock": 10,
+      "price": 799.99,
+      "available": true,
+      "isOficial": true,
+      "descriptionLarge": "This high-quality treadmill is designed to give you the best home workout experience. With a powerful 2.5 HP motor, spacious running surface, and advanced exercise tracking features, it will help you reach your fitness goals.",
+      "descriptionShort": "Professional treadmill with 2.5 HP motor and spacious surface."
+    },
+    {
+      "id": "8025",
+      "isOficial": false,
+      "name": "3333333333",
+      "descriptionShort": "",
+      "price": 0,
+      "stock": 0,
+      "available": false,
+      "descriptionLarge": ""
+    }
+  ]
+}
