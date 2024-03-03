@@ -37,9 +37,11 @@ El frontend se desarrolló utilizando Next.js 14.1.1 con App Router y consiste e
 
    ```
 
-## Pendientes
+## Pendientes de mejora
 
 - Mejor manejo de errores al hacer solicitudes a la api
+- Las peticiones GET quedaron implementadas de una forma y los otros metodos de otra. 
 - Dar feedback al usuario cuando se hacen las solicitudes, por ejemplo mensajes, sppiner o algo que indique que la pagina esta cargando.
 - El componente de los filtros se puede mejorar bastante mas
 - Paginacion
+- Revisar la estructura y funcionamiento de los contenedores y docker ya que hubo problemas
